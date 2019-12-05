@@ -1,0 +1,27 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background: blueviolet;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKxNI5EL3rJZpjQ4ABeKgNQfxO4XIdQrKP-ZxSpgGtxj0gbIvZ);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 100px auto;
+  /* Transform */
+  /* transform: translate(200px, 50px); */
+  /* transform: translateX(200px); */
+  /* transform: translateY(50px); */
+  /* transform: scale(1.5, 1.5); */
+  /* transform: scaleX(1.5); */
+  /* transform: scaleY(1.5); */
+  /* transform: rotate(-45deg); */
+  /* transform: rotateX(-45deg); */
+  /* transform: rotateY(-45deg); */
+  /* transform: skew(-35deg);
+  transform: skewX(-35deg);
+  transform: skewY(-35deg); */
+}
+.box:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  transition: all 1s cubic-bezier(0.46, 1.64, 1, 1);
+}

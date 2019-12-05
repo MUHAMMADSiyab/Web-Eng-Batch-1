@@ -1,0 +1,84 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap|Lato&display=swap");
+
+body {
+  background: #f4f8fa;
+}
+
+.login-container {
+  width: 450px;
+  height: 500px;
+  background: #fff;
+  margin: 100px auto;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(231, 231, 231);
+}
+
+.login-container hr {
+  margin-bottom: 40px;
+  width: 90%;
+  border-top: 1px solid rgb(238, 238, 238);
+}
+
+.login-container h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-container label {
+  margin-left: 4%;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 85%;
+  font-family: "Lato", sans-serif;
+  color: rgb(98, 98, 98);
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 90%;
+  height: 35px;
+  margin-left: 4%;
+  margin-right: 5%;
+  margin-bottom: 25px;
+  font-size: 100%;
+  padding-left: 3px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 20px;
+}
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  outline: none;
+  border: 2px solid rgb(9, 139, 128);
+}
+
+.login-container input[type="submit"] {
+  margin-left: 4%;
+  background: rgb(9, 139, 128);
+  width: 100px;
+  height: 40px;
+  border: 0;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.login-container input[type="submit"]:hover {
+  background: rgb(4, 63, 58);
+}
+
+.login-container #signup-link {
+  margin-left: 4%;
+  color: rgb(9, 139, 128);
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 92%;
+}
+
+.login-container #signup-link:hover {
+  color: rgb(4, 63, 58);
+}

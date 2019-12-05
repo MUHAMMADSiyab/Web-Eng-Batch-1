@@ -1,0 +1,28 @@
+div {
+  width: 500px;
+  height: 500px;
+  background: rgb(74, 117, 0);
+  margin: 50px auto;
+  padding: 20px;
+  color: #fff;
+  /* border-width: 20px;
+  border-color: crimson;
+  border-style: ridge;
+  border-top-width: 50px;
+  border-bottom-width: 50px;
+  border-left-width: 40px;
+  border-right-width: 40px;
+  border-left-style: double;
+  border-right-style: double; */
+  border: 15px ridge rgb(0, 90, 0);
+  /* border-bottom-left-radius: 50px; */
+  border-radius: 50% 0 50% 50%;
+}
+
+p {
+  width: 250px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}

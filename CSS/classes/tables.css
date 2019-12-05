@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+table {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+table td,
+th {
+  font-size: 90%;
+  border: 0;
+  padding: 10px;
+}
+
+table thead tr {
+  background: rgb(164, 188, 202);
+}
+
+table tr:nth-child(even) {
+  background: #dae5ec;
+}

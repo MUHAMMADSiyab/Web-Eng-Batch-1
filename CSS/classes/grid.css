@@ -1,0 +1,16 @@
+.main-container > div {
+  padding: 10px;
+}
+.main-container > div:nth-child(odd) {
+  background: pink;
+}
+.main-container > div:nth-child(even) {
+  background: rgb(192, 255, 247);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 600px;
+  grid-gap: 1rem;
+}

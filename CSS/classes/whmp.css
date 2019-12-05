@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
+div {
+  width: 700px;
+  height: 500px;
+  background: blueviolet;
+  /* margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 120px;
+  margin-right: 200px; */
+  /* margin: 100px 20px 500px 0px; */
+  /* margin: 200px 300px 0px; */
+  /* margin: 200px; */
+  margin: 100px auto;
+  padding: 50px;
+}
+p,
+h1 {
+  color: #fff;
+}
