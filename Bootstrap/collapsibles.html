@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap 4 Collapsibles</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Accodion -->
+      <div id="parent-elem">
+        <!-- First Card -->
+        <div class="card">
+          <div class="card-header">
+            <button
+              class="btn btn-light"
+              data-toggle="collapse"
+              data-target="#colContent"
+            >
+              Toggle Card
+            </button>
+          </div>
+          <div class="card-body">
+            <div class="collapse" id="colContent" data-parent="#parent-elem">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos qui
+                at mollitia? Nam, et? Nam reiciendis sunt maiores architecto,
+                fugit ullam eligendi quia repudiandae facilis vitae laborum
+                nobis commodi sed libero rerum quam, labore pariatur nostrum
+                dignissimos, dolor error qui?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="card">
+          <div class="card-header">
+            <button
+              class="btn btn-light"
+              data-toggle="collapse"
+              data-target="#colContent1"
+            >
+              Toggle Card
+            </button>
+          </div>
+          <div class="card-body">
+            <div class="collapse" id="colContent1" data-parent="#parent-elem">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos qui
+                at mollitia? Nam, et? Nam reiciendis sunt maiores architecto,
+                fugit ullam eligendi quia repudiandae facilis vitae laborum
+                nobis commodi sed libero rerum quam, labore pariatur nostrum
+                dignissimos, dolor error qui?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
