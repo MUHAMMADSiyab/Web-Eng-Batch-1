@@ -1,0 +1,11 @@
+.card,
+.list-group {
+  border: 0;
+  box-shadow: 0px 2px 30px lightgray;
+}
+
+/* Form inputs */
+.form-control:focus {
+  box-shadow: none !important;
+  border: 2px #02b875 solid;
+}
