@@ -27,6 +27,10 @@ var addNumbers = function() {
   return 4 + 8;
 };
 
-const sum = addNumbers;
+const sum = addNumbers();
 
-console.log(sum());
+console.log(sum);
+console.log(sum);
+console.log(sum);
+console.log(sum);
+console.log(sum);
