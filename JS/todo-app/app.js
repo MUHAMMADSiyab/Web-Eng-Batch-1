@@ -57,3 +57,25 @@ function addItemToDOM(todoKey, todoName) {
 }
 
 getTodos();
+
+todosList.addEventListener("click", deleteTodo);
+
+/**
+ * @method deleteTodo
+ */
+function deleteTodo(e) {
+  // Verify if the delete button is clicked
+  if (e.target.classList.contains("btn-delete")) {
+    if (confirm("Are you sure you want to delete this todo ?")) {
+      const todoKey = e.target.value;
+
+      // Remove from localStorage
+      localStorage.removeItem(todoKey);
+
+      // Remove from DOM
+      const li = e.target.parentElement;
+
+      todosList.removeChild(li);
+    }
+  }
+}
