@@ -28,15 +28,15 @@ function handleEvent(e) {
   }
 }
 
-document.querySelector("body").addEventListener("mousemove", function(e) {
+document.querySelector("body").addEventListener("mousemove", function (e) {
   //   console.log(e.clientX);
 });
 
 // addEventListener version
-window.addEventListener("online", function(e) {
+window.addEventListener("online", function (e) {
   console.log("You are now connected to the network.");
 });
 
-window.addEventListener("offline", function(e) {
+window.addEventListener("offline", function (e) {
   console.log("You are disconnected from the network.");
 });
